@@ -28,12 +28,12 @@ const Contact = ({ theme, setTheme }) => {
             </h3>
             <div className="p-4 grid grid-cols-[20%_1fr] gap-x-6">
               {[
-                { label: "Email", value: "info@innovatech.com" },
-                { label: "Phone", value: "+1 (555) 123-4567" },
-                {
-                  label: "Address",
-                  value: "123 Innovation Drive, Tech City, CA 90210",
-                },
+                { label: "Email", value: "colombotrio@gmail.com" },
+                { label: "Phone", value: "+94 71 303 1383" },
+                // {
+                //   label: "Address",
+                //   value: "123 Innovation Drive, Tech City, CA 90210",
+                // },
               ].map((item, index) => (
                 <div
                   key={index}
@@ -51,9 +51,9 @@ const Contact = ({ theme, setTheme }) => {
 
             {/* Follow Us */}
             <h3 className="text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4 theme-text">
-              Follow Us
+              Inquiries
             </h3>
-            <div className="@container">
+            {/* <div className="@container">
               <div className="gap-2 px-4 flex flex-wrap justify-start">
                 {[
                   {
@@ -112,7 +112,7 @@ const Contact = ({ theme, setTheme }) => {
                   </div>
                 ))}
               </div>
-            </div>
+            </div> */}
 
             {/* Contact Form */}
             {[
