@@ -12,8 +12,8 @@ const Services = ({ theme }) => {
       style={{
         fontFamily: 'Inter, "Noto Sans", sans-serif',
         background: theme === "dark" 
-          ? "linear-gradient(135deg, #0f172a 0%, #1e293b 100%)"
-          : "linear-gradient(135deg, #f8fafc 0%, #ffffff 100%)",
+          ? "#111c22"
+          : "#ffffff",
         color: theme === "dark" ? "#e2e8f0" : "#000000",
         minHeight: "100vh",
       }}

@@ -13,8 +13,8 @@ const ServiceDetailCard = ({ service, details, index, theme }) => {
       style={{
         padding: "80px 20px",
         backgroundColor: isEven
-          ? (theme === "dark" ? "#0f172a" : "#f8fafc")
-          : (theme === "dark" ? "#1e293b" : "#ffffff"),
+          ? (theme === "dark" ? "#111c22" : "#f9fafb")
+          : (theme === "dark" ? "#1f2937" : "#ffffff"),
       }}
     >
       <div style={{ maxWidth: "1200px", margin: "0 auto" }}>

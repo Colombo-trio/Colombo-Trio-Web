@@ -8,7 +8,7 @@ const ProcessSection = ({ theme }) => {
     <section
       style={{
         padding: "80px 20px",
-        backgroundColor: theme === "dark" ? "#0f172a" : "#f8fafc",
+        backgroundColor: theme === "dark" ? "#111c22" : "#f9fafb",
         textAlign: "center",
       }}
     >

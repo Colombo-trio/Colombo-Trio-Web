@@ -26,7 +26,7 @@ const ServiceImage = ({ service, theme }) => {
           backgroundImage: `url("${service.image}")`,
           backgroundSize: "cover",
           backgroundPosition: "center",
-          opacity: 0.3,
+          // opacity: 0.3,
         }}
       />
     </div>

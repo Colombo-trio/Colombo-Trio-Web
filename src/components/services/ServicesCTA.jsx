@@ -9,8 +9,8 @@ const ServicesCTA = ({ theme }) => {
       style={{
         padding: "100px 20px",
         background: theme === "dark" 
-          ? "linear-gradient(135deg, #1e293b 0%, #0f172a 100%)"
-          : "linear-gradient(135deg, #ffffff 0%, #f8fafc 100%)",
+          ? "#111c22"
+          : "#ffffff",
         textAlign: "center",
       }}
     >

@@ -4,7 +4,7 @@ const ProcessStepCard = ({ step, theme }) => {
   return (
     <div
       style={{
-        background: theme === "dark" ? "rgba(30, 41, 59, 0.5)" : "white",
+        background: theme === "dark" ? "#374151" : "white",
         padding: "40px 30px",
         borderRadius: "15px",
         border: `1px solid ${
